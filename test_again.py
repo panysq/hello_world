@@ -1,15 +1,5 @@
 import cv2
 
-
-im = cv2.imread('111.bmp')
-print(im.shape)
-b,g,r = cv2.split(im)
-cv2.imshow('b',b)
-cv2.imshow('g',g)
-cv2.imshow('r',r)
-cv2.waitKey(0)
-
-
 img_show = cv2.imread('mura_an_2.bmp')
 entropy_gray = cv2.imread('2_entropy_gray.png')
 average_gray = cv2.imread('2_average_gray.png')
